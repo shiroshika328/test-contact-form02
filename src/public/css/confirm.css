@@ -1,0 +1,102 @@
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    border-bottom: solid #7d7d7d 1px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    color: #7d7d7d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    color: #7d7d7d;
+    display: flex;
+    justify-content: center;
+}
+
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    color: #fff;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 25%;
+    border-bottom: 1px solid #ddd;
+    background-color: burlywood;
+    font-weight:normal;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #7d7d7d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-submit-correction {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: burlywood;
+    color: #fff;
+    cursor: pointer;
+}
