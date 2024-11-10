@@ -34,7 +34,7 @@
             <tr class="confirm-table__row">
                 <th class="confirm-table__header">電話番号</th>
                 <td class="confirm-table__text">
-                    <input type="tel" name="tel" value="{{$contact['tel']}}" readonly />
+                    <input type="tel" name="tel" value="{{ $contact ['tel']}}" readonly />
                 </td>
             </tr>
             <tr class="confirm-table__row">
@@ -67,7 +67,7 @@
         <button class="form__button-submit" type="submit">送信</button>
     </div>
     <div class="form__button">
-        <button class="form__button-submit-correction" type="submit">修正</button>
+        <a class="form__button-submit-correction" href="/" type="submit">修正</a>
     </div>
 </form>
 @endsection
